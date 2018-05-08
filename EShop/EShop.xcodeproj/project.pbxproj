@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F907CA209AED79005E5734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F907C9209AED79005E5734 /* Assets.xcassets */; };
+		18F907CD209AED79005E5734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F907CB209AED79005E5734 /* LaunchScreen.storyboard */; };
+		18F907DB209B094F005E5734 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F907D9209B094F005E5734 /* main.m */; };
+		18F907EB209B0B48005E5734 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F907EA209B0B48005E5734 /* HomePageVC.m */; };
+		18F907EF209B0D39005E5734 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F907EE209B0D39005E5734 /* AppDelegate.m */; };
+		18F907F2209B0D75005E5734 /* AppDelegate+RootWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F907F1209B0D75005E5734 /* AppDelegate+RootWindow.m */; };
+		18F907FF209BF07C005E5734 /* PersonalCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F907FE209BF07C005E5734 /* PersonalCenterVC.m */; };
+		18F90808209C0D24005E5734 /* ESPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F90803209C0D24005E5734 /* ESPBaseViewController.m */; };
+		18F90809209C0D24005E5734 /* ESPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F90805209C0D24005E5734 /* ESPNavigationController.m */; };
+		18F9080A209C0D24005E5734 /* ESPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F90807209C0D24005E5734 /* ESPTabBarController.m */; };
+		18F90814209C0E53005E5734 /* UIView+TNAppLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F90813209C0E53005E5734 /* UIView+TNAppLib.m */; };
+		18F90817209C2FD1005E5734 /* MultiTapBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F90816209C2FD1005E5734 /* MultiTapBtnView.m */; };
+		18F9081A209C3CC5005E5734 /* MultiBtnCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F90819209C3CC5005E5734 /* MultiBtnCollectionViewCell.m */; };
+		18F9081E209C494B005E5734 /* NSString+CalculateSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9081D209C494B005E5734 /* NSString+CalculateSize.m */; };
+		18F9082420A0523E005E5734 /* ESPUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9082220A0523E005E5734 /* ESPUserModel.m */; };
+		18F9082820A0556B005E5734 /* BaseEntityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9082720A0556B005E5734 /* BaseEntityModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18F907BA209AED79005E5734 /* EShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F907C9209AED79005E5734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F907CC209AED79005E5734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F907CE209AED79005E5734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F907D9209B094F005E5734 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F907E9209B0B48005E5734 /* HomePageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		18F907EA209B0B48005E5734 /* HomePageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		18F907ED209B0D39005E5734 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F907EE209B0D39005E5734 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F907F0209B0D75005E5734 /* AppDelegate+RootWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RootWindow.h"; sourceTree = "<group>"; };
+		18F907F1209B0D75005E5734 /* AppDelegate+RootWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RootWindow.m"; sourceTree = "<group>"; };
+		18F907F9209BEAAA005E5734 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18F907FD209BF07C005E5734 /* PersonalCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterVC.h; sourceTree = "<group>"; };
+		18F907FE209BF07C005E5734 /* PersonalCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterVC.m; sourceTree = "<group>"; };
+		18F90802209C0D24005E5734 /* ESPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPBaseViewController.h; sourceTree = "<group>"; };
+		18F90803209C0D24005E5734 /* ESPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPBaseViewController.m; sourceTree = "<group>"; };
+		18F90804209C0D24005E5734 /* ESPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPNavigationController.h; sourceTree = "<group>"; };
+		18F90805209C0D24005E5734 /* ESPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPNavigationController.m; sourceTree = "<group>"; };
+		18F90806209C0D24005E5734 /* ESPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTabBarController.h; sourceTree = "<group>"; };
+		18F90807209C0D24005E5734 /* ESPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPTabBarController.m; sourceTree = "<group>"; };
+		18F90812209C0E53005E5734 /* UIView+TNAppLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TNAppLib.h"; sourceTree = "<group>"; };
+		18F90813209C0E53005E5734 /* UIView+TNAppLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TNAppLib.m"; sourceTree = "<group>"; };
+		18F90815209C2FD1005E5734 /* MultiTapBtnView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiTapBtnView.h; sourceTree = "<group>"; };
+		18F90816209C2FD1005E5734 /* MultiTapBtnView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiTapBtnView.m; sourceTree = "<group>"; };
+		18F90818209C3CC5005E5734 /* MultiBtnCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiBtnCollectionViewCell.h; sourceTree = "<group>"; };
+		18F90819209C3CC5005E5734 /* MultiBtnCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiBtnCollectionViewCell.m; sourceTree = "<group>"; };
+		18F9081C209C494B005E5734 /* NSString+CalculateSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CalculateSize.h"; sourceTree = "<group>"; };
+		18F9081D209C494B005E5734 /* NSString+CalculateSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CalculateSize.m"; sourceTree = "<group>"; };
+		18F9082220A0523E005E5734 /* ESPUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPUserModel.m; sourceTree = "<group>"; };
+		18F9082320A0523E005E5734 /* ESPUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPUserModel.h; sourceTree = "<group>"; };
+		18F9082620A0556B005E5734 /* BaseEntityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseEntityModel.h; sourceTree = "<group>"; };
+		18F9082720A0556B005E5734 /* BaseEntityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseEntityModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F907B7209AED79005E5734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F907B1209AED79005E5734 = {
+			isa = PBXGroup;
+			children = (
+				18F907BC209AED79005E5734 /* EShop */,
+				18F907BB209AED79005E5734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F907BB209AED79005E5734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F907BA209AED79005E5734 /* EShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F907BC209AED79005E5734 /* EShop */ = {
+			isa = PBXGroup;
+			children = (
+				18F90800209C0D24005E5734 /* Base */,
+				18F9080B209C0DAE005E5734 /* Common */,
+				18F907D6209B094F005E5734 /* Main */,
+				18F907DD209B0A2B005E5734 /* HomePage */,
+				18F907DC209B0A2B005E5734 /* PersonalCenter */,
+				18F907C9209AED79005E5734 /* Assets.xcassets */,
+				18F907CB209AED79005E5734 /* LaunchScreen.storyboard */,
+				18F907CE209AED79005E5734 /* Info.plist */,
+			);
+			path = EShop;
+			sourceTree = "<group>";
+		};
+		18F907D6209B094F005E5734 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18F907D9209B094F005E5734 /* main.m */,
+				18F907F9209BEAAA005E5734 /* PrefixHeader.pch */,
+				18F907EC209B0D39005E5734 /* AppDelegate */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18F907DC209B0A2B005E5734 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				18F907FC209BF04F005E5734 /* Controller */,
+				18F907FA209BF04F005E5734 /* Model */,
+				18F907FB209BF04F005E5734 /* View */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		18F907DD209B0A2B005E5734 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				18F907E6209B0B10005E5734 /* Controller */,
+				18F907E7209B0B10005E5734 /* Model */,
+				18F907E8209B0B10005E5734 /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		18F907E6209B0B10005E5734 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F907E9209B0B48005E5734 /* HomePageVC.h */,
+				18F907EA209B0B48005E5734 /* HomePageVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F907E7209B0B10005E5734 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F907E8209B0B10005E5734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18F90815209C2FD1005E5734 /* MultiTapBtnView.h */,
+				18F90816209C2FD1005E5734 /* MultiTapBtnView.m */,
+				18F90818209C3CC5005E5734 /* MultiBtnCollectionViewCell.h */,
+				18F90819209C3CC5005E5734 /* MultiBtnCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F907EC209B0D39005E5734 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				18F907ED209B0D39005E5734 /* AppDelegate.h */,
+				18F907EE209B0D39005E5734 /* AppDelegate.m */,
+				18F907F0209B0D75005E5734 /* AppDelegate+RootWindow.h */,
+				18F907F1209B0D75005E5734 /* AppDelegate+RootWindow.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		18F907FA209BF04F005E5734 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F9082320A0523E005E5734 /* ESPUserModel.h */,
+				18F9082220A0523E005E5734 /* ESPUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F907FB209BF04F005E5734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F907FC209BF04F005E5734 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F907FD209BF07C005E5734 /* PersonalCenterVC.h */,
+				18F907FE209BF07C005E5734 /* PersonalCenterVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F90800209C0D24005E5734 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18F90801209C0D24005E5734 /* Controller */,
+				18F9082520A05546005E5734 /* Model */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		18F90801209C0D24005E5734 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F90802209C0D24005E5734 /* ESPBaseViewController.h */,
+				18F90803209C0D24005E5734 /* ESPBaseViewController.m */,
+				18F90804209C0D24005E5734 /* ESPNavigationController.h */,
+				18F90805209C0D24005E5734 /* ESPNavigationController.m */,
+				18F90806209C0D24005E5734 /* ESPTabBarController.h */,
+				18F90807209C0D24005E5734 /* ESPTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F9080B209C0DAE005E5734 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18F9080C209C0DAE005E5734 /* Model */,
+				18F9080D209C0DAE005E5734 /* View */,
+				18F90811209C0E0F005E5734 /* Layout */,
+				18F9081B209C48FD005E5734 /* CategoryTools */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18F9080C209C0DAE005E5734 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F9080D209C0DAE005E5734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F90811209C0E0F005E5734 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				18F90812209C0E53005E5734 /* UIView+TNAppLib.h */,
+				18F90813209C0E53005E5734 /* UIView+TNAppLib.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		18F9081B209C48FD005E5734 /* CategoryTools */ = {
+			isa = PBXGroup;
+			children = (
+				18F9081C209C494B005E5734 /* NSString+CalculateSize.h */,
+				18F9081D209C494B005E5734 /* NSString+CalculateSize.m */,
+			);
+			path = CategoryTools;
+			sourceTree = "<group>";
+		};
+		18F9082520A05546005E5734 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F9082620A0556B005E5734 /* BaseEntityModel.h */,
+				18F9082720A0556B005E5734 /* BaseEntityModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F907B9209AED79005E5734 /* EShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F907D3209AED79005E5734 /* Build configuration list for PBXNativeTarget "EShop" */;
+			buildPhases = (
+				18F907B6209AED79005E5734 /* Sources */,
+				18F907B7209AED79005E5734 /* Frameworks */,
+				18F907B8209AED79005E5734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EShop;
+			productName = EShop;
+			productReference = 18F907BA209AED79005E5734 /* EShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F907B2209AED79005E5734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Telly;
+				TargetAttributes = {
+					18F907B9209AED79005E5734 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18F907B5209AED79005E5734 /* Build configuration list for PBXProject "EShop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F907B1209AED79005E5734;
+			productRefGroup = 18F907BB209AED79005E5734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F907B9209AED79005E5734 /* EShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F907B8209AED79005E5734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F907CD209AED79005E5734 /* LaunchScreen.storyboard in Resources */,
+				18F907CA209AED79005E5734 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F907B6209AED79005E5734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F9080A209C0D24005E5734 /* ESPTabBarController.m in Sources */,
+				18F9082420A0523E005E5734 /* ESPUserModel.m in Sources */,
+				18F90817209C2FD1005E5734 /* MultiTapBtnView.m in Sources */,
+				18F9082820A0556B005E5734 /* BaseEntityModel.m in Sources */,
+				18F90808209C0D24005E5734 /* ESPBaseViewController.m in Sources */,
+				18F907F2209B0D75005E5734 /* AppDelegate+RootWindow.m in Sources */,
+				18F907EF209B0D39005E5734 /* AppDelegate.m in Sources */,
+				18F907FF209BF07C005E5734 /* PersonalCenterVC.m in Sources */,
+				18F9081A209C3CC5005E5734 /* MultiBtnCollectionViewCell.m in Sources */,
+				18F90814209C0E53005E5734 /* UIView+TNAppLib.m in Sources */,
+				18F907EB209B0B48005E5734 /* HomePageVC.m in Sources */,
+				18F907DB209B094F005E5734 /* main.m in Sources */,
+				18F90809209C0D24005E5734 /* ESPNavigationController.m in Sources */,
+				18F9081E209C494B005E5734 /* NSString+CalculateSize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18F907CB209AED79005E5734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F907CC209AED79005E5734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F907D1209AED79005E5734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F907D2209AED79005E5734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F907D4209AED79005E5734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88PVJNKSQ8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EShop/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = EShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EShop.EShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F907D5209AED79005E5734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88PVJNKSQ8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EShop/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = EShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.EShop.EShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F907B5209AED79005E5734 /* Build configuration list for PBXProject "EShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F907D1209AED79005E5734 /* Debug */,
+				18F907D2209AED79005E5734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F907D3209AED79005E5734 /* Build configuration list for PBXNativeTarget "EShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F907D4209AED79005E5734 /* Debug */,
+				18F907D5209AED79005E5734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F907B2209AED79005E5734 /* Project object */;
+}

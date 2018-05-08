@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  EShop
+//
+//  Created by apple on 2018/5/4.
+//  Copyright © 2018年 Telly. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#endif /* PrefixHeader_pch */
+
+#import "UIView+TNAppLib.h"
+#import "NSString+CalculateSize.h"
+
+//NSLog增强
+#ifdef __OPTIMIZE__
+# define NSLog(...) {}
+#else
+# define NSLog(...) NSLog(__VA_ARGS__)
+#endif
+
+//********************************************颜色配置**********************************************//
+#define RGBFromHex(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define RGBFromHexA(rgbValue, alp) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alp]
+
+#define RGB(X,Y,Z) [UIColor colorWithRed:X/255.0 green:Y/255.0 blue:Z/255.0 alpha:1]
+#define RGBA(X,Y,Z,A) [UIColor colorWithRed:X/255.0 green:Y/255.0 blue:Z/255.0 alpha:A]
+
+//主色调
+#define MainTone RGBFromHex(0xfb4911)
+
+//字体管理，有可能适配iPad过审
+#define Font12
+#define Font14
+#define Font16
+#define Font18
+
+//苹方字体
+#define PFSCBold(fontSize) [UIFont fontWithName:@"PingFangSC-Semibold" size:fontSize]
+#define PFSCRegular(fontSize) [UIFont fontWithName:@"PingFangSC-Regular" size:fontSize]
+#define PFSCThin(fontSize) [UIFont fontWithName:@"PingFangSC-Thin" size:fontSize]
